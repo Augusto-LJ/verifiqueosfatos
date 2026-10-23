@@ -6,7 +6,7 @@ Instância produtiva em: https://verifiqueosfatos.com/
 
 ## Arquitetura e Fluxo
 
-Esta aplicação é uma `PWA (Progressive Web Page)` estática feita em vanilla `HTML/CSS/JS` com `Auto Update` sem necessidade de backend dedidcado, os arquivos devem ser servidos preferencialmente de maneira serverless. Recomenda-se uma CDN. Não há "backend", você só precisa de um host. Nesta Doc Section você entenderá o que acontece assim que um usuário acessa esta app, seja em modo local ou produtivo.
+Esta aplicação é uma `PWA (Progressive Web App)` estática feita em vanilla `HTML/CSS/JS` com `Auto Update` sem necessidade de backend dedidcado, os arquivos devem ser servidos preferencialmente de maneira serverless. Recomenda-se uma CDN. Não há "backend", você só precisa de um host. Nesta Doc Section você entenderá o que acontece assim que um usuário acessa esta app, seja em modo local ou produtivo.
 
 🟦 A index.html será carregada
 
@@ -28,7 +28,7 @@ Caso post.json tenha sido obtido com sucesso a página comparará os itens atuai
 
 Após este processo a função de rendering é chamada e o front reage, nessa fase é onde a página é de fato percebida pelo user.
 
-## PWA (Progresstive Web Web)
+## PWA (Progresstive Web App)
 
 Um PWA (Progressive Web App ou Aplicativo Web Progressivo) é uma aplicação criada com tecnologias web tradicionais (HTML, CSS e JavaScript) que oferece uma experiência de uso semelhante à de um aplicativo nativo de celular ou computador. 
 
